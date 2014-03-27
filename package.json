@@ -1,0 +1,28 @@
+{
+  "name": "htmlparser",
+  "description": "avascript HTML Parser By John Resig (ejohn.org)",
+  "version": "1.0.0",
+  "keywords": [
+    "html",
+    "parser"
+  ],
+  "maintainers": [
+    {
+      "name": "Net Gusto",
+      "email": "contact@netgusto.com",
+      "web": "http://netgusto.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/netgusto/upndown.git"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "Mozilla Public License",
+      "url": ""
+    }
+  ]
+}
