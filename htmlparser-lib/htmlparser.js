@@ -227,7 +227,7 @@
 			if ( typeof DOMDocument != "undefined" )
 				doc = new DOMDocument();
 			else if ( typeof document != "undefined" && document.implementation && document.implementation.createDocument )
-				doc = document.implementation.createDocument("", "", null);
+				doc = document.implementation.createDocument("", "", document.implementation.createDocumentType('html', '', ''));
 			else if ( typeof ActiveX != "undefined" )
 				doc = new ActiveXObject("Msxml.DOMDocument");
 			
