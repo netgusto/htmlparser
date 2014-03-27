@@ -13,7 +13,7 @@
       "web": "http://netgusto.com"
     }
   ],
-  "repositories": [
+  "repository": [
     {
       "type": "git",
       "url": "https://github.com/netgusto/upndown.git"
