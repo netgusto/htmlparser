@@ -1,6 +1,6 @@
 {
   "name": "htmlparser",
-  "description": "avascript HTML Parser By John Resig (ejohn.org)",
+  "description": "Javascript HTML Parser By John Resig (ejohn.org)",
   "version": "1.0.0",
   "keywords": [
     "html",
