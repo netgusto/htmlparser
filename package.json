@@ -1,7 +1,7 @@
 {
   "name": "htmlparser",
   "description": "Javascript HTML Parser By John Resig (ejohn.org)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "html",
     "parser"
