@@ -274,8 +274,11 @@
 			
 				var elem = doc.createElement( tagName );
 				
-				for ( var attr in attrs )
-					elem.setAttribute( attrs[ attr ].name, attrs[ attr ].value );
+				for ( var attr in attrs ) {
+					try {
+						elem.setAttribute( attrs[ attr ].name, attrs[ attr ].value );
+					} catch(e) {}
+				}
 				
 				if ( structure[ tagName ] && typeof one[ structure[ tagName ] ] != "boolean" )
 					one[ structure[ tagName ] ].appendChild( elem );
