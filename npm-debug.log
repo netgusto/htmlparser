@@ -1,0 +1,142 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/jerome/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/tmp.tgz
+12 verbose folder .
+13 info prepublish htmlparser@1.0.2
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/jerome/.npm/1f1177db-tar.lock
+16 silly lockFile 8af4c8eb-88746-0-4157519433647394-tmp-tgz tar:///var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/tmp.tgz
+17 verbose lock tar:///var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/tmp.tgz /Users/jerome/.npm/8af4c8eb-88746-0-4157519433647394-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 8af4c8eb-88746-0-4157519433647394-tmp-tgz tar:///var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/tmp.tgz
+21 silly lockFile 8af4c8eb-88746-0-4157519433647394-tmp-tgz tar:///var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/tmp.tgz
+22 verbose tar unpack /var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/tmp.tgz
+23 silly lockFile 6cb01f29-88746-0-4157519433647394-package tar:///var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/package
+24 verbose lock tar:///var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/package /Users/jerome/.npm/6cb01f29-88746-0-4157519433647394-package.lock
+25 silly lockFile 8af4c8eb-88746-0-4157519433647394-tmp-tgz tar:///var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/tmp.tgz
+26 verbose lock tar:///var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/tmp.tgz /Users/jerome/.npm/8af4c8eb-88746-0-4157519433647394-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry index.js
+31 silly gunzTarPerm extractEntry htmlparser-lib/htmlparser.js
+32 silly lockFile 6cb01f29-88746-0-4157519433647394-package tar:///var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/package
+33 silly lockFile 6cb01f29-88746-0-4157519433647394-package tar:///var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/package
+34 silly lockFile 8af4c8eb-88746-0-4157519433647394-tmp-tgz tar:///var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/tmp.tgz
+35 silly lockFile 8af4c8eb-88746-0-4157519433647394-tmp-tgz tar:///var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/tmp.tgz
+36 verbose tar pack [ '/Users/jerome/.npm/htmlparser/1.0.2/package.tgz',
+36 verbose tar pack   '/var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/package' ]
+37 verbose tarball /Users/jerome/.npm/htmlparser/1.0.2/package.tgz
+38 verbose folder /var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/package
+39 silly lockFile 6cb01f29-88746-0-4157519433647394-package tar:///var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/package
+40 verbose lock tar:///var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/package /Users/jerome/.npm/6cb01f29-88746-0-4157519433647394-package.lock
+41 silly lockFile 7fff038f-npm-htmlparser-1-0-2-package-tgz tar:///Users/jerome/.npm/htmlparser/1.0.2/package.tgz
+42 verbose lock tar:///Users/jerome/.npm/htmlparser/1.0.2/package.tgz /Users/jerome/.npm/7fff038f-npm-htmlparser-1-0-2-package-tgz.lock
+43 silly lockFile 6cb01f29-88746-0-4157519433647394-package tar:///var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/package
+44 silly lockFile 6cb01f29-88746-0-4157519433647394-package tar:///var/folders/gv/pqpgx24s0pb762pgdqv5l9jc0000gn/T/npm-6228-ttdITpVg/1397685888746-0.4157519433647394/package
+45 silly lockFile 7fff038f-npm-htmlparser-1-0-2-package-tgz tar:///Users/jerome/.npm/htmlparser/1.0.2/package.tgz
+46 silly lockFile 7fff038f-npm-htmlparser-1-0-2-package-tgz tar:///Users/jerome/.npm/htmlparser/1.0.2/package.tgz
+47 silly lockFile 51a02e4e-ome-npm-htmlparser-1-0-2-package /Users/jerome/.npm/htmlparser/1.0.2/package
+48 verbose lock /Users/jerome/.npm/htmlparser/1.0.2/package /Users/jerome/.npm/51a02e4e-ome-npm-htmlparser-1-0-2-package.lock
+49 silly lockFile 51a02e4e-ome-npm-htmlparser-1-0-2-package /Users/jerome/.npm/htmlparser/1.0.2/package
+50 silly lockFile 51a02e4e-ome-npm-htmlparser-1-0-2-package /Users/jerome/.npm/htmlparser/1.0.2/package
+51 verbose tar unpack /Users/jerome/.npm/htmlparser/1.0.2/package.tgz
+52 silly lockFile 9a3d5d40-ome-npm-htmlparser-1-0-2-package tar:///Users/jerome/.npm/htmlparser/1.0.2/package
+53 verbose lock tar:///Users/jerome/.npm/htmlparser/1.0.2/package /Users/jerome/.npm/9a3d5d40-ome-npm-htmlparser-1-0-2-package.lock
+54 silly lockFile 7fff038f-npm-htmlparser-1-0-2-package-tgz tar:///Users/jerome/.npm/htmlparser/1.0.2/package.tgz
+55 verbose lock tar:///Users/jerome/.npm/htmlparser/1.0.2/package.tgz /Users/jerome/.npm/7fff038f-npm-htmlparser-1-0-2-package-tgz.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm extractEntry README.md
+59 silly gunzTarPerm extractEntry index.js
+60 silly gunzTarPerm extractEntry htmlparser-lib/htmlparser.js
+61 silly lockFile 9a3d5d40-ome-npm-htmlparser-1-0-2-package tar:///Users/jerome/.npm/htmlparser/1.0.2/package
+62 silly lockFile 9a3d5d40-ome-npm-htmlparser-1-0-2-package tar:///Users/jerome/.npm/htmlparser/1.0.2/package
+63 silly lockFile 7fff038f-npm-htmlparser-1-0-2-package-tgz tar:///Users/jerome/.npm/htmlparser/1.0.2/package.tgz
+64 silly lockFile 7fff038f-npm-htmlparser-1-0-2-package-tgz tar:///Users/jerome/.npm/htmlparser/1.0.2/package.tgz
+65 verbose chmod /Users/jerome/.npm/htmlparser/1.0.2/package.tgz 644
+66 verbose chown /Users/jerome/.npm/htmlparser/1.0.2/package.tgz [ 501, 20 ]
+67 silly lockFile 3a52ce78- .
+68 silly lockFile 3a52ce78- .
+69 silly publish { name: 'htmlparser',
+69 silly publish   description: 'Javascript HTML Parser By John Resig (ejohn.org)',
+69 silly publish   version: '1.0.2',
+69 silly publish   keywords: [ 'html', 'parser' ],
+69 silly publish   maintainers:
+69 silly publish    [ { name: 'Net Gusto',
+69 silly publish        email: 'contact@netgusto.com',
+69 silly publish        url: 'http://netgusto.com' } ],
+69 silly publish   repository:
+69 silly publish    [ { type: 'git',
+69 silly publish        url: 'https://github.com/netgusto/htmlparser.git' } ],
+69 silly publish   licenses: [ { name: 'Mozilla Public License', url: '' } ],
+69 silly publish   readme: '# HTML Parser By John Resig (ejohn.org)\n\nHTML Parser By John Resig (ejohn.org) wrapped as a Node.js module.\n\nOriginal code by Erik Arvidsson, Mozilla Public License\n<http://erik.eae.net/simplehtmlparser/simplehtmlparser.js>\n\n    // Use like so:\n    HTMLParser(htmlString, {\n        start: function(tag, attrs, unary) {},\n        end: function(tag) {},\n        chars: function(text) {},\n        comment: function(text) {}\n    });\n\n    // or to get an XML string:\n    HTMLtoXML(htmlString);\n\n    // or to get an XML DOM Document\n    HTMLtoDOM(htmlString);\n\n    // or to inject into an existing document/DOM node\n    HTMLtoDOM(htmlString, document);\n    HTMLtoDOM(htmlString, document.body);\n',
+69 silly publish   readmeFilename: 'README.md',
+69 silly publish   _id: 'htmlparser@1.0.2',
+69 silly publish   dist: { shasum: '659f6505ee5c0f4feb38b484d4b5be7718440eef' },
+69 silly publish   _from: '.' }
+70 verbose url raw htmlparser
+71 verbose url resolving [ 'https://registry.npmjs.org/', './htmlparser' ]
+72 verbose url resolved https://registry.npmjs.org/htmlparser
+73 info trying registry request attempt 1 at 00:04:48
+74 http PUT https://registry.npmjs.org/htmlparser
+75 http 403 https://registry.npmjs.org/htmlparser
+76 error publish Failed PUT 403
+77 error Error: forbidden user: netgusto not authorized to modify htmlparser
+77 error Changed: description "Forgiving HTML/XML/RSS Parser in JS for *both* Node and Browsers" -> "Javascript HTML Parser By John Resig (ejohn.org)"
+77 error Changed: dist-tags.latest "1.7.7" -> "1.0.2"
+77 error Added: versions.1.0.2
+77 error Deleted: author
+77 error Deleted: repository.type
+77 error Deleted: repository.url
+77 error Added: repository.0
+77 error Changed: time.modified "2013-12-20T01:16:25.259Z" -> "2014-04-16T22:04:41.621Z"
+77 error Added: time.1.0.2
+77 error Changed: readme "#NodeHtmlParser\u000aA forgiving HTML/XML/RSS parser written in JS for both the browser and NodeJS (yes, despite the name it works just fine in any modern browser). The parser can handle streams (chunked data) and supports custom handlers for writing custom DOMs/output.\u000a\u000a##Installing\u000a\u000a\u0009npm install htmlparser\u000a\u000a##Running Tests\u000a\u000a###Run tests under node:\u000a\u0009node runtests.js\u000a\u000a###Run tests in browser:\u000aView runtests.html in any browser\u000a\u000a##Usage In Node\u000a\u000a```javascript\u000avar htmlparser = require(\"htmlparser\");\u000avar rawHtml = \"Xyz <script language= javascript>var foo = '<<bar>>';< /  script><!--<!-- Waah! -- -->\";\u000avar handler = new htmlparser.DefaultHandler(function (error, dom) {\u000a\u0009if (error)\u000a\u0009\u0009[...do something for errors...]\u000a\u0009else\u000a\u0009\u0009[...parsing done, do something...]\u000a});\u000avar parser = new htmlparser.Parser(handler);\u000aparser.parseComplete(rawHtml);\u000asys.puts(sys.inspect(handler.dom, false, null));\u000a```\u000a\u000a##Usage In Browser\u000a\u000a```javascript\u000avar handler = new Tautologistics.NodeHtmlParser.DefaultHandler(function (error, dom) {\u000a\u0009if (error)\u000a\u0009\u0009[...do something for errors...]\u000a\u0009else\u000a\u0009\u0009[...parsing done, do something...]\u000a});\u000avar parser = new Tautologistics.NodeHtmlParser.Parser(handler);\u000aparser.parseComplete(document.body.innerHTML);\u000aalert(JSON.stringify(handler.dom, null, 2));\u000a```\u000a\u000a##Example output\u000a\u000a```javascript\u000a[ { raw: 'Xyz ', data: 'Xyz ', type: 'text' }\u000a  , { raw: 'script language= javascript'\u000a  , data: 'script language= javascript'\u000a  , type: 'script'\u000a  , name: 'script'\u000a  , attribs: { language: 'javascript' }\u000a  , children: \u000a     [ { raw: 'var foo = \\'<bar>\\';<'\u000a       , data: 'var foo = \\'<bar>\\';<'\u000a       , type: 'text'\u000a       }\u000a     ]\u000a  }\u000a, { raw: '<!-- Waah! -- '\u000a  , data: '<!-- Waah! -- '\u000a  , type: 'comment'\u000a  }\u000a]\u000a```\u000a\u000a##Streaming To Parser\u000a\u000a```javascript\u000awhile (...) {\u000a\u0009...\u000a\u0009parser.parseChunk(chunk);\u000a}\u000aparser.done();\u0009\u000a```\u000a\u000a##Parsing RSS/Atom Feeds\u000a\u000a```javascript\u000anew htmlparser.RssHandler(function (error, dom) {\u000a\u0009...\u000a});\u000a```\u000a\u000a##DefaultHandler Options\u000a\u000a###Usage\u000a\u000a```javascript\u000avar handler = new htmlparser.DefaultHandler(\u000a\u0009  function (error) { ... }\u000a\u0009, { verbose: false, ignoreWhitespace: true }\u000a\u0009);\u000a```\u000a\u000a###Option: ignoreWhitespace\u000aIndicates whether the DOM should exclude text nodes that consists solely of whitespace. The default value is \"false\".\u000a\u000a####Example: true\u000a\u000aThe following HTML:\u000a\u000a```html\u000a<font>\u000a\u0009<br>this is the text\u000a<font>\u000a```\u000a\u000abecomes:\u000a\u000a```javascript\u000a[ { raw: 'font'\u000a  , data: 'font'\u000a  , type: 'tag'\u000a  , name: 'font'\u000a  , children: \u000a     [ { raw: 'br', data: 'br', type: 'tag', name: 'br' }\u000a     , { raw: 'this is the text\\n'\u000a       , data: 'this is the text\\n'\u000a       , type: 'text'\u000a       }\u000a     , { raw: 'font', data: 'font', type: 'tag', name: 'font' }\u000a     ]\u000a  }\u000a]\u000a```\u000a\u000a####Example: false\u000a\u000aThe following HTML:\u000a\u000a```html\u000a<font>\u000a\u0009<br>this is the text\u000a<font>\u000a```\u000a\u000abecomes:\u000a\u000a```javascript\u000a[ { raw: 'font'\u000a  , data: 'font'\u000a  , type: 'tag'\u000a  , name: 'font'\u000a  , children: \u000a     [ { raw: '\\n\\t', data: '\\n\\t', type: 'text' }\u000a     , { raw: 'br', data: 'br', type: 'tag', name: 'br' }\u000a     , { raw: 'this is the text\\n'\u000a       , data: 'this is the text\\n'\u000a       , type: 'text'\u000a       }\u000a     , { raw: 'font', data: 'font', type: 'tag', name: 'font' }\u000a     ]\u000a  }\u000a]\u000a```\u000a\u000a###Option: verbose\u000aIndicates whether to include extra information on each node in the DOM. This information consists of the \"raw\" attribute (original, unparsed text found between \"<\" and \">\") and the \"data\" attribute on \"tag\", \"script\", and \"comment\" nodes. The default value is \"true\". \u000a\u000a####Example: true\u000aThe following HTML:\u000a\u000a```html\u000a<a href=\"test.html\">xxx</a>\u000a```\u000a\u000abecomes:\u000a\u000a```javascript\u000a[ { raw: 'a href=\"test.html\"'\u000a  , data: 'a href=\"test.html\"'\u000a  , type: 'tag'\u000a  , name: 'a'\u000a  , attribs: { href: 'test.html' }\u000a  , children: [ { raw: 'xxx', data: 'xxx', type: 'text' } ]\u000a  }\u000a]\u000a```\u000a\u000a####Example: false\u000aThe following HTML:\u000a\u000a```javascript\u000a<a href=\"test.html\">xxx</a>\u000a```\u000a\u000abecomes:\u000a\u000a```javascript\u000a[ { type: 'tag'\u000a  , name: 'a'\u000a  , attribs: { href: 'test.html' }\u000a  , children: [ { data: 'xxx', type: 'text' } ]\u000a  }\u000a]\u000a```\u000a\u000a###Option: enforceEmptyTags\u000aIndicates whether the DOM should prevent children on tags marked as empty in the HTML spec. Typically this should be set to \"true\" HTML parsing and \"false\" for XML parsing. The default value is \"true\".\u000a\u000a####Example: true\u000aThe following HTML:\u000a\u000a```html\u000a<link>text</link>\u000a```\u000a\u000abecomes:\u000a\u000a```javascript\u000a[ { raw: 'link', data: 'link', type: 'tag', name: 'link' }\u000a, { raw: 'text', data: 'text', type: 'text' }\u000a]\u000a```\u000a\u000a####Example: false\u000aThe following HTML:\u000a\u000a```html\u000a<link>text</link>\u000a```\u000a\u000abecomes:\u000a\u000a```javascript\u000a[ { raw: 'link'\u000a  , data: 'link'\u000a  , type: 'tag'\u000a  , name: 'link'\u000a  , children: [ { raw: 'text', data: 'text', type: 'text' } ]\u000a  }\u000a]\u000a```\u000a\u000a##DomUtils\u000a\u000a###TBD (see utils_example.js for now)\u000a\u000a##Related Projects\u000a\u000aLooking for CSS selectors to search the DOM? Try Node-SoupSelect, a port of SoupSelect to NodeJS: http://github.com/harryf/node-soupselect\u000a\u000aThere's also a port of hpricot to NodeJS that uses HtmlParser for HTML parsing: http://github.com/silentrob/Apricot\u000a\u000a" -> "# HTML Parser By John Resig (ejohn.org)\u000a\u000aHTML Parser By John Resig (ejohn.org) wrapped as a Node.js module.\u000a\u000aOriginal code by Erik Arvidsson, Mozilla Public License\u000a<http://erik.eae.net/simplehtmlparser/simplehtmlparser.js>\u000a\u000a    // Use like so:\u000a    HTMLParser(htmlString, {\u000a        start: function(tag, attrs, unary) {},\u000a        end: function(tag) {},\u000a        chars: function(text) {},\u000a        comment: function(text) {}\u000a    });\u000a\u000a    // or to get an XML string:\u000a    HTMLtoXML(htmlString);\u000a\u000a    // or to get an XML DOM Document\u000a    HTMLtoDOM(htmlString);\u000a\u000a    // or to inject into an existing document/DOM node\u000a    HTMLtoDOM(htmlString, document);\u000a    HTMLtoDOM(htmlString, document.body);\u000a"
+77 error Deleted: homepage
+77 error Changed: keywords.1 "xml" -> "parser"
+77 error Deleted: keywords.2
+77 error Deleted: keywords.3
+77 error Deleted: contributors
+77 error Deleted: bugs
+77 error Added: _attachments: htmlparser
+77 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+77 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+77 error     at Request.EventEmitter.emit (events.js:98:17)
+77 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+77 error     at Request.EventEmitter.emit (events.js:117:20)
+77 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+77 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+77 error     at _stream_readable.js:920:16
+77 error     at process._tickCallback (node.js:415:13)
+78 error If you need help, you may report this *entire* log,
+78 error including the npm and node versions, at:
+78 error     <http://github.com/npm/npm/issues>
+79 error System Darwin 13.1.0
+80 error command "node" "/usr/local/bin/npm" "publish"
+81 error cwd /Users/jerome/Desktop/htmlparser-jresig
+82 error node -v v0.10.26
+83 error npm -v 1.4.3
+84 verbose exit [ 1, true ]
